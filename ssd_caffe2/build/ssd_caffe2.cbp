@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="ssd_caffe2"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\software\;CMake Files\..\..\..\..\..\..\software\libtorch\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Torch\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\public\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\;CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\share\;CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\;CMake Files\build\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd_caffe2">
+				<Option output="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/ssd_caffe2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/targets/x86_64-linux/include"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/media/zw/DL/ly/software/libtorch/libtorch/include"/>
+					<Add directory="/media/zw/DL/ly/software/libtorch/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 ssd_caffe2"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="ssd_caffe2/fast">
+				<Option output="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/ssd_caffe2" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda-10.1/targets/x86_64-linux/include"/>
+					<Add directory="/opt/intel/mkl/include"/>
+					<Add directory="/media/zw/DL/ly/software/libtorch/libtorch/include"/>
+					<Add directory="/media/zw/DL/ly/software/libtorch/libtorch/include/torch/csrc/api/include"/>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/include/opencv"/>
+					<Add directory="/usr/include/c++/5"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/5"/>
+					<Add directory="/usr/include/c++/5/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/5/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 ssd_caffe2/fast"/>
+					<CompileFile command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j8 -f &quot;/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/BoxUtils.cpp">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/BoxUtils.h">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/Caffe2Net.cpp">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/Caffe2Net.h">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/SSDNet.cpp">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/SSDNet.h">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/main.cpp">
+			<Option target="ssd_caffe2"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Torch/TorchConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Torch/TorchConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Torch\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Caffe2Config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Caffe2ConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Caffe2Targets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Caffe2Targets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/public/cuda.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/public/mkl.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/public/mkldnn.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/public/threads.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/public/utils.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\public\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/CMakeInitializeConfigs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageHandleStandardArgs.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindPackageMessage.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../software/libtorch/libtorch/share/cmake/Caffe2/Modules_CUDA_fix/upstream/FindCUDA/select_compute_arch.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\software\libtorch\libtorch\share\cmake\Caffe2\Modules_CUDA_fix\upstream\FindCUDA\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../../../../../usr/local/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../../../../../usr/local/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../../../../../usr/local/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/../../../../../../../../../../usr/local/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\..\..\..\usr\local\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/detect_cuda_compute_capabilities.cpp">
+			<Option virtualFolder="CMake Files\build\"/>
+		</Unit>
+		<Unit filename="/media/zw/DL/ly/workspace/project02/experiment/exp04/demo02/ssd_caffe2/build/detect_cuda_version.cc">
+			<Option virtualFolder="CMake Files\build\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

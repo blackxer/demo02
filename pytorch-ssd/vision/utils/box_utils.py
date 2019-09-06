@@ -74,7 +74,7 @@ def generate_ssd_priors(specs: List[SSDSpec], image_size, clamp=True) -> torch.T
                     h * ratio
                 ])
 
-    priors = torch.tensor(prio
+    priors = torch.tensor(priors)
     # 转onnx时注释掉77行，使用79行，否则onnx转tensorrt时会报错 。训练SSD时，使用77行，注释掉79行
     # priors = torch.tensor(priors).unsqueeze(0)
     if clamp:
